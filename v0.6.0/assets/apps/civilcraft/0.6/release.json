@@ -1,0 +1,19 @@
+{
+    "app": "civilcraft",
+    "version": "0.6",
+    "released_at": "2026-10-19 00:03 UTC",
+    "git": "28f3444 (dev had uncommitted changes)",
+    "libs": {
+        "delaunator": "5.1.0",
+        "geotiff": "3.0.5",
+        "laz-perf": "0.0.7",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "proj4": "2.22.0",
+        "robust-predicates": "3.0.3",
+        "sql.js": "1.14.2",
+        "three": "0.186.1"
+    },
+    "notes": "Arcs in feature lines, with ends at different elevations, followed by offsets, profiles, surfaces and 3D and kept in LandXML, DXF and DWG. Corridor targets: the edge of pavement or shoulder follows a feature line or another corridor's line in width or elevation. A structure builder for pipe-network structures (round or rectangular, with wall, slab, sump, frame and cover), saved to the library. Vehicle swept paths with up to three trailers, forward or reversing, with the swept outline, wheel paths and steering and articulation checks (the starting vehicles are placeholders: set your own design vehicle). A second round adds sanitary design flows (peak flow by Harmon or Babbitt plus infiltration, how full and how fast each pipe runs, and pipe sizing, checked against a published design sheet) and Earthwork \u203a Send to TakeoffCraft. Type a calculation wherever a length is typed. Every app gets Show bars, Reset the layout, a toolbar menu, an interface size and pen and touch. Spanish (es-MX) and, new, Bahasa Indonesia are machine-made drafts, not yet reviewed."
+}
