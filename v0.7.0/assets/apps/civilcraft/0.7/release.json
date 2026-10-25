@@ -1,0 +1,19 @@
+{
+    "app": "civilcraft",
+    "version": "0.7",
+    "released_at": "2026-10-25 01:38 UTC",
+    "git": "d5ef8b8 (dev had uncommitted changes)",
+    "libs": {
+        "delaunator": "5.1.0",
+        "geotiff": "3.0.5",
+        "laz-perf": "0.0.7",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "proj4": "2.22.0",
+        "robust-predicates": "3.0.3",
+        "sql.js": "1.14.2",
+        "three": "0.186.1"
+    },
+    "notes": "Release 0.7 (notes: docs/releases/0.7.md)"
+}
