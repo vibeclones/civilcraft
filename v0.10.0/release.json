@@ -1,0 +1,41 @@
+{
+    "format": "cadcraft-edition",
+    "version": 1,
+    "app": "civilcraft",
+    "name": "CivilCraft",
+    "edition": "browser",
+    "release": "0.10",
+    "semver": "0.10.0",
+    "tag": "civilcraft-v0.10.0",
+    "zip": "civilcraft-browser-edition-v0.10.0.zip",
+    "packed_at": "2026-11-16T15:56:42Z",
+    "from": {
+        "build": "0.10",
+        "released_at": "2026-11-16 15:53 UTC",
+        "git": "9bac5708 (dev had uncommitted changes)"
+    },
+    "license": "Apache-2.0",
+    "libs": {
+        "delaunator": "5.1.0",
+        "geotiff": "3.0.5",
+        "laz-perf": "0.0.7",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "pdfjs": "6.3.289",
+        "proj4": "2.22.0",
+        "robust-predicates": "3.0.3",
+        "sql.js": "1.14.2",
+        "three": "0.186.1",
+        "bootstrap": "5.3.8",
+        "bootstrap-icons": "1.13.2",
+        "archivo": "5.2.8"
+    },
+    "changes_to_copied_files": [
+        "Renamed cc-openfoam-runner.mjs, foam-sample.mjs, pdf.min.mjs, pdf.mjs, pdf.worker.min.mjs, pdf.worker.mjs to .js (and every reference to them), so servers that do not know the .mjs type still serve them as JavaScript.",
+        "Library URLs written as /assets/vendor/<lib>/current/ are pinned to the versions listed in release.json."
+    ],
+    "files": 2213,
+    "bytes_before_this_file": 265411162,
+    "notes": "0.10 (L.2 release-build 2026-11-16)"
+}
