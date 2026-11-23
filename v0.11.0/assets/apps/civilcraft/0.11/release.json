@@ -1,0 +1,63 @@
+{
+    "app": "civilcraft",
+    "version": "0.11",
+    "released_at": "2026-11-22 20:32 UTC",
+    "git": "73be47e14 (dev had uncommitted changes)",
+    "libs": {
+        "coolprop": "6.6.0",
+        "delaunator": "5.1.0",
+        "geotiff": "3.0.5",
+        "laz-perf": "0.0.7",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "pdfjs": "6.3.289",
+        "proj4": "2.22.0",
+        "rdkit": "2026.9.1",
+        "robust-predicates": "3.0.3",
+        "sql.js": "1.14.2",
+        "three": "0.186.1"
+    },
+    "notes": "CadCraft Studio 0.11 (0.10.1 folded in; owner 2026-11-22)",
+    "thawed": [
+        {
+            "at": "2026-11-22 22:40 UTC",
+            "why": "Owner 2026-11-22: fix, then re-cut: Studio Live co-editing in DetailCraft and CivilCraft (FX.459)"
+        },
+        {
+            "at": "2026-11-23 02:21 UTC",
+            "why": "Owner 2026-11-23: blocker 4, commands no menu reaches (FX.460)"
+        },
+        {
+            "at": "2026-11-23 02:24 UTC",
+            "why": "Owner 2026-11-23: suite blockers fixed; cadcraft 0.11 gets the chip add-on's lib/schematic sync (tools/chip/sync.mjs cadcraft) that dev has"
+        }
+    ],
+    "patched": [
+        {
+            "at": "2026-11-22 22:40 UTC",
+            "files": [
+                "live.js"
+            ],
+            "why": "Owner 2026-11-22: fix, then re-cut: Studio Live co-editing in DetailCraft and CivilCraft (FX.459)"
+        },
+        {
+            "at": "2026-11-23 02:21 UTC",
+            "files": [
+                "input-civilcraft.js"
+            ],
+            "why": "Owner 2026-11-23: blocker 4, commands no menu reaches (FX.460)"
+        }
+    ],
+    "refrozen": [
+        {
+            "at": "2026-11-22 22:40 UTC"
+        },
+        {
+            "at": "2026-11-23 02:21 UTC"
+        },
+        {
+            "at": "2026-11-23 02:24 UTC"
+        }
+    ]
+}
